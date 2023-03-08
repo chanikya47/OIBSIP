@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+
+.container{
+    max-width:80vw;
+    font-family:"Dancing Script", sans-serif;
+}
+
+.navbar{
+    display:flex;
+    height:67px;
+}
+.navbar li{
+    list-style:none;
+    margin: 0 12px;
+
+}
+
+.topleft{
+    width:60%;
+    height:50vh;
+}
+
+.cinnamonimg{
+    width:130px;
+    padding:0 260px;
+}
+
+.smallBimg{
+    padding:40px;
+}
+.topright{
+    height:55vh;
+    width:40%;
+}
+
+.logo{
+    font-size:1.5rem;
+}
+
+.pagelogo{
+    font-size:1.3rem;
+}
+
+.section1 h1{
+    font-size: 2rem;
+}
+
+.section1{
+    height:400px;
+}
+.section1 p{
+    font-size: 1.1rem;
+    color: rgb(236, 28, 62)
+}
+
+.btn{
+    padding:7px 12px;
+    border: 2px solid rgb(235, 134, 134);
+    border-radius:12px;
+    cursor:pointer;
+    color: rgb(246, 246, 248);
+    background-color:rgb(235, 137, 137);
+}
+
+.section2 h1{
+    font-size: 3rem;
+}
+
+.section3 h1{
+    font-size: 3rem;
+}
+
+.section2 p{
+    font-size: 1.5rem;
+    padding:0 8vw;
+    text-align: center;
+    color: rgb(233, 24, 58);
+}
+
+.section3 p{
+    font-size: 1.5rem;
+    padding:0 8vw;
+    text-align: center;
+}
+.section2{
+    padding-left: 63px;
+    padding-right: 63px;
+}
+
+.section3{
+    padding-left: 63px;
+    padding-right: 63px;
+}
+
+.section3{
+    text-align: center;
+}
+
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(245, 112, 112);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+    margin: 12px 2px;
+}
+
+.highlighted{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
